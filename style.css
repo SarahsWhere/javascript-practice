@@ -2,26 +2,29 @@ body{
     background-color: black;
     color: cadetblue;
     font-family: fantasy;
+    letter-spacing: 0.2em;
 }
 .container{
     width: 80%;
     margin: auto;
 }
-.question{
+.container h1{
     text-align: center;
-    border-bottom-style: dotted;
+    background-color: darkslategray;
+    color: floralwhite;
+    padding: 8px;
 }
-.first-day ul{
+.container ul{
     padding: 6px;
     list-style: square;
     list-style: none;
 }
-.first-day li{
+.container li{
     padding: 6px;
     border-bottom: oldlace;
     border-bottom-style: dashed 1px;
     list-style-image: url(/Users/sarahswhere/javascript-practice/images/bluechk.jpg);
-    
+    letter-spacing: 0.2em;
 }
 #sidebar{
     float: left;
@@ -32,4 +35,10 @@ body{
     box-sizing: border-box;
     line-height: 2.0em;
     text-align: center;
+}
+.learn{
+    float: right;
+}
+footer{
+    text-align: right;
 }
