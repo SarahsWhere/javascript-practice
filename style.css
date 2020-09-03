@@ -1,5 +1,35 @@
 body{
     background-color: black;
-    color: aqua;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: cadetblue;
+    font-family: fantasy;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.question{
+    text-align: center;
+    border-bottom-style: dotted;
+}
+.first-day ul{
+    padding: 6px;
+    list-style: square;
+    list-style: none;
+}
+.first-day li{
+    padding: 6px;
+    border-bottom: oldlace;
+    border-bottom-style: dashed 1px;
+    list-style-image: url(/Users/sarahswhere/javascript-practice/images/bluechk.jpg);
+    
+}
+#sidebar{
+    float: left;
+    width: 30%;
+    background-color: darkslategrey;
+    color: floralwhite;
+    padding: 15px;
+    box-sizing: border-box;
+    line-height: 2.0em;
+    text-align: center;
 }
