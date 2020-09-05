@@ -12,11 +12,18 @@ body{
     text-align: center;
     background-color: darkslategray;
     color: floralwhite;
-    padding: 8px;
 }
-.container ul{
+.container{
     padding: 6px;
     list-style: square;
+    list-style: none;
+}
+.navbar {
+    text-align: center;
+    background-color: darkslategray;
+    color: floralwhite;
+    list-style-type: none;
+    list-style-image: none;
     list-style: none;
 }
 .container li{
@@ -39,6 +46,13 @@ body{
 .learn{
     float: right;
 }
-footer{
-    text-align: right;
+.footer h4{
+    text-align: center;
+    background-color: darkslategray;
+    color: floralwhite;
+    list-style-type: none;
+    float: left;
+    padding: 10px;
+    inline-size: 15em;
+    position: relative;
 }
