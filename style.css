@@ -9,6 +9,14 @@ body{
     margin: auto;
     padding: 6px;
 }
+a{
+    text-decoration: none;
+    color: lightsteelblue;
+}
+a:hover{
+    text-decoration: underline;
+    color: lightpink;
+}
 .container li{
     list-style: none;
 }
@@ -16,9 +24,12 @@ body{
     text-align: center;
     text-emphasis: bold;
     background-color: darkslategray;
-    color: floralwhite;
+    color: lightsteelblue;
     padding: 10px;
     letter-spacing: 0.2em;
+}
+.container h2{
+    color: lightpink;
 }
 .navbar{
     text-align: center;
@@ -30,7 +41,6 @@ body{
 }
 .navbar ol{
     list-style: none;
-    display: flex;
     display: inline-flex;  
     padding: 2px; 
 }
@@ -38,7 +48,6 @@ body{
     padding: 6px;
     border-bottom: oldlace;
     border-bottom-style: dashed 1px;
-    list-style-image: url(/Users/sarahswhere/javascript-practice/images/bluechk.jpg);
     letter-spacing: 0.2em;
 }
 #sidebar{
@@ -50,15 +59,18 @@ body{
     box-sizing: border-box;
     line-height: 2.0em;
     text-align: center;
+    list-style-image: url(/images/journalpage.jpeg);
 }
 .learn{
-    float: right;
+    float: inline-start;
+    padding: 20px;
+    text-align: right;
 }
 footer{
     text-align: center;
     text-emphasis: bold;
     background-color: darkslategray;
-    color: floralwhite;
+    color: lightpink;
     width: 80%;
     margin: auto;
     padding: 6px;
